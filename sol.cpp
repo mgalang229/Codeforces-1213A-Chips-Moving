@@ -23,6 +23,8 @@ int main() {
 			odd++;
 		}
 	}
+	// the smaller value between the two values (odd or even) will serve
+	// as the minimum number of coins that will be needed to move them
 	cout << min(even, odd) << '\n';
 	return 0;
 }
